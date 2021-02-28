@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>IT'S HALLOWEEN</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Acme|Source+Sans+Pro:300,400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+
+    <link rel="stylesheet" href="index.css">
+    
+
+</head>
+<body>
+    <div id="banner">
+        <img src="assets/halloweeen-bg.jpg" id="child1" class="childrens">
+        <a href="https://apps.apple.com/us/app/online-florist-floweradvisor/id1185232807">
+            <img src="assets/appstore.jpg" id="child2" class="childrens">
+        </a>
+        <a id="child3" class="childrens" >CODE : <b id="copy-text">HALLOW10</b> <i class="fas fa-copy" onClick="myFunction()"></i></a>
+        
+    </div>
+    <div id="content">
+        <p class="content__title">Terms and Condition</p>
+        <p >
+            <ol>
+                <li class="content__point">Promotion ends on October 31, 2017</li>
+                <li class="content__point">Items will be discounted after Discount Code is applied. Discount Code : <b>HALLOW10</b></li>
+                <li class="content__point">Not applicable for add-on item, delivery charges and special discounted product</li>
+                <li class="content__point">Not valid in conjuction with any other promotions, offers, discounts and vouchers</li>
+                <li class="content__point">Management reserves the rights to amend the terms and conditions without prior notice</li>
+            </ol>
+        </p>
+        <button class="content__button" onclick="location.href='https://www.floweradvisor.com.ph/flowers-philippines';"> MAKE SOMEONE'S <br> DAY</button>
+        <hr style="margin-top: 130px;">
+        <img src="./assets/logo.png" alt="logo" class="content__logo">
+        <p class="content__footer">TOP Online FLorist with Same and Next Day Delivery Service Singapore FlowerAdvisor is Singapore Online Florist that offers same day & next day flower deliveri to Singapore and any countries accross the globe. FlowerAdvisor came at result of a prominent absence of a single strong brand in Asia for International Flower Delivery. Online users found it a struggle to discover a trusted 24 hour delivery flower site which can be relied upon to send flowers, hampers and gifts to their loved ones anywhere in the world</p>
+    </div>
+    <script>
+        function myFunction() {
+            var copyText = document.getElementById("copy-text").innerHTML;
+            navigator.clipboard.writeText(copyText)
+        }
+    </script>
+</body>
+</html>
