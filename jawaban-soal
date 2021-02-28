@@ -1,0 +1,24 @@
+I. Multiple Choices
+    1. C
+    2. C 
+    3. B
+    4. B
+    5. B
+    6. A
+    7. A
+    8. A
+
+II. Essay
+    1.  $.ajax({
+            type: 'GET',
+            url: 'http:///api/banners?country=SG',
+            dataType: 'json',
+            success: function(data) {
+                        console.log(data)
+                    }
+        });
+    
+    2. in file 'carousel-slick.html'
+
+    3. SELECT * FROM banners WHERE domain LIKE 'fa.com.sg' AND country LIKE 'singapore' AND end_date = '2018-09-30'
+
